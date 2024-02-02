@@ -1,0 +1,573 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+/* THIS IS NAVIGATION BAR */
+
+.main{
+    height:80px;
+    width:auto;
+    display:flex;
+}
+.left{
+    height:80px;
+    width:30%;
+    background-color:#0C3B5F;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+.right{
+    height:80px;
+    width:70%;
+    background-color:#0C3B5F;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    flex-wrap: wrap;
+}
+.side{
+    height:80px;
+    width:10%;
+    background-color:#0C3B5F    ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.font{
+    color:white;
+    visibility: hidden;
+    display:flex;
+    justify-content:center;
+    align-items: center ;
+}
+
+@media(max-width:1037px){
+    .font{
+        visibility: visible;
+    }
+    li{
+        display: none;
+    }
+    .right{
+        justify-content: flex-end;
+    }
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+li{
+    padding:0px 20px 0px 20px;
+    color:white;
+}
+.hello{
+    color:white;
+    display:flex;
+    text-align: center;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+}
+
+/* IMAGE OF MOUNTAIN CLIMBER*/
+ 
+
+.box1{
+    height:600px;
+    width:100%;
+    display:flex;
+    background-image: url(young-man-doing.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: last baseline;
+    flex-wrap: wrap;
+
+}
+.box2{
+    width:800px;
+    height:300px;
+    background-color:white;
+    flex-wrap: wrap;
+    display:flex;
+
+}
+.one{
+    height:100px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.two{
+    height:100px;
+    width:100%;
+    text-align: center;
+
+}
+.three{
+    height:100px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.book1{
+    color:#0C3B5F;
+    font: weight 200px;;
+    font-weight:100;
+    font-size:40px;
+}
+.book2{
+    color:#0C3B5F;
+    font-size:60px;
+    font-weight: 100;
+}
+.book3{
+    color:#0C3B5F;
+    background-color: white;
+    border:1px solid #0C3B5F;
+    padding:15px 40px 15px 40px;
+    font-size: 15px;
+    transition-duration: 1s;
+
+}
+.book3:hover{
+    color:white;
+    background-color: #0C3B5F;
+}
+
+/*white box */
+
+.back{
+    max-width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px 30px 100px 30px;
+}   
+.container1{
+    height:auto;
+    padding: 10px;
+    width:400px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 2;
+    justify-content: center;
+    align-items: center;    
+}
+
+
+
+.container2{
+   
+    height:auto;
+    width:400px;
+    display:flex;
+    padding: 10px;
+    flex-direction: column;
+    flex-grow: 2;
+    justify-content: center;
+    align-items: center;    
+}
+
+.container3{
+    
+    height:auto;
+    width:400px;
+    display:flex;
+    padding: 10px;
+    flex-grow: 2;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;    
+}
+.xyz1{
+    height:auto;
+    width:100%;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    
+    
+}
+.xyz2{
+    height:auto;
+    width:100%;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    
+}
+.xyz3{
+    height:auto;
+    width:100%;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    
+}
+.abc1{
+    height:auto;
+    width:100%;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    
+    
+}
+.abc2{
+    height:auto;
+    width:100%;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    
+    
+}
+.abc3{
+    height:auto;
+    width:100%;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+
+}
+.pqr1{
+    height:auto;
+    width:100%;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    
+    
+}
+.pqr2{
+    height:auto;
+    width:100%;
+    flex-direction: column;
+     text-align: center;
+     padding: 10px 0px 10px 0px;
+    
+    
+}
+.pqr3{
+    height:auto;
+    width:100%;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+   
+    
+}
+h2{
+    color:#0C3B5F;
+    font-size: 30px ;
+    font: weight 100px;;
+}
+
+/* THIS SECTION IS "ABOUT US" */
+
+.top{
+    height:auto;
+    width:100%;
+    background-image: url(beautiful-shot.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top:100px;
+    padding-bottom:100px;
+
+}
+.front{
+    height:auto;
+    width:100%;
+    background-color: rgba(255,255,255,0.6 );
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    padding-top:100px;
+    padding-bottom:100px;
+    flex-wrap: wrap;
+}
+.black1{
+    height:auto;
+    width:40%;  
+    display:flex;
+    justify-content: center;
+    align-items: center ;
+}
+.black2{
+    height:auto;
+    width:40%;
+    display:flex;
+    justify-content: center;
+    align-items: center ;
+
+}
+.black3{
+    height:auto;
+    width:40%;
+    display:flex;
+    justify-content: center;
+    align-items: center ;
+}
+.black4{
+    height:auto;
+    width:40%;
+    display:flex;
+    justify-content: center;
+    align-items: center ;   
+}
+
+/* THIS IS LOGO SECTION */
+
+.section1{
+height:auto;
+width:100%;
+display: flex;
+flex-direction: column;
+padding-top:40px;
+padding-bottom:40px;
+}
+.section2{
+height:auto;
+width:100%;
+
+
+}
+.section3{
+    height:auto;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+/* THESE ARE LOGOS*/
+.box3{
+    height:auto;
+    width:100%;
+    
+}
+.box4{
+    height:auto;
+    width:100%;
+    
+}
+.box5{
+    height:auto;
+    width:100%;
+    
+}
+.box6{
+    height:300px;
+    width:100%;
+    
+}
+.nike1{
+    object-fit: contain;
+    height:300px;       
+    width:60%;  
+}
+
+/* THIS IS TESTIMONIAL SECTION*/
+.look{
+    height:auto;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    padding-top:100px;
+    padding-bottom:100px;
+    background-color: aliceblue;
+    flex-wrap: wrap;
+
+}
+.look1{
+    height:auto;
+    width:100%;
+    text-align: center;
+    padding:20px 0px 20px 0px;
+    
+}
+
+.look2{
+    height:auto;
+    width:30%;
+    text-align: center;
+    padding:20px 0px 20px 0px;
+}
+.look3  {
+    height:auto;
+    width:30%;
+    text-align: center;
+    padding:20px 0px 20px 0px; 
+       
+}
+.look4{
+    height:auto;
+    width:30%;
+    text-align: center;
+    padding:20px 0px 20px 0px; 
+}
+h3{
+    color:#0C3B5F;
+}
+p{
+    color:#0C3B5F;
+}
+
+/* THIS IS A  FORM SECTION*/
+.form{
+    height:800px;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+.part1{
+    height:100px;
+    width:100%;
+    background-color:#0C3B5F;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.part2{
+    height:400px;
+    width:100%;
+    background-color:red;
+}
+.part3{
+    height:300px;
+    width:60%;
+    justify-content: center;
+    align-self: center;
+    position: absolute;
+    top:450px;
+    background-color: #0C3B5F;
+}
+.part4{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cnt{
+    color:white;
+    text-align: center;
+}
+
+/* THIS IS FOOTER SECTION*/
+
+.footer{
+    height:auto;
+    width:auto;
+    background-color: #0C3B5F;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    padding:20px 0px 20pxs 0px;
+    flex-wrap: wrap;
+}
+.footer1{
+    height:auto;
+    width:200px;
+    display:flex;
+    flex-wrap: wrap;
+
+
+}
+.footer2{
+    height:auto;
+    width:200px;
+    text-align: center; 
+    display:flex;
+    flex-wrap:wrap ;
+    flex-direction: column;
+    
+    
+
+}
+
+.footer3{
+    height:auto;
+    width:200px;
+    text-align:center;
+    display:flex;
+    flex-wrap: wrap;
+
+}
+
+.close{
+    display:flex;
+    flex-direction:column;
+    padding:10px 0px 10px 0px;
+    
+}
+.alka{
+    color:white;
+    font-size: 30px;
+    font-weight:300;
+    padding:30px 0px 30px 0px;
+}
+.white{
+    color:white;
+    padding:20px 0px 20px 0px;
+}
+.open1{
+    height:auto;
+    width:100%;
+}
+
+.open2{
+    height:auto;
+    width:100%;
+
+
+}
+.open3{
+    height:auto;
+    width:100%;
+    background-color:beige;
+}
+.fa-brands{
+    color:white;
+    font-size:20px;
+}
+
+
+
+
+
+
+
